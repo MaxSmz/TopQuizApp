@@ -211,48 +211,6 @@ public class QuestionView extends JFrame {
         backButton.addActionListener(controller);
     }
 
-//    /**
-//     * Used to get specific component by the name.
-//     * @param container The container the component belongs to.
-//     * @param name The component's name.
-//     * @return
-//     */
-//    public Component getComponentByName(Container container, String name) {
-//        Component[] components = container.getComponents();
-//        for (Component component : components) {
-//            if (component.getName() != null && component.getName().equals(name)) {
-//                return component;
-//            }
-//            if (component instanceof Container) {
-//                Component subComponent = getComponentByName((Container) component, name);
-//                if (subComponent != null) {
-//                    return subComponent;
-//                }
-//            }
-//        }
-//        return null;
-//    }
-//
-//    /**
-//     *
-//     * @param options
-//     */
-//    public void setOptions(String[] options) {
-//        JPanel optionPanel = (JPanel) this.getComponentByName(this,"optionsPanel");
-//        if (optionPanel != null) {
-//            Component[] optionButtons = optionPanel.getComponents();
-//            for (int i = 0; i < optionButtons.length; i++) {
-//                if (optionButtons[i] instanceof JRadioButton) {
-//                    ((JRadioButton) optionButtons[i]).setText(options[i]);
-//                }
-//            }
-//        }
-//
-//    }
-
-
-
-
     /**
      * Check if the answer of multiple choice question lead to score 0.
      * @param checkBox

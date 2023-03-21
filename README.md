@@ -2,21 +2,6 @@
 ## Project Description
 QuizApp is a Java-based answering program. After the user enters the name, selects the age group and question category in the main interface, the program will randomly select 10 questions from the database for the user to answer. After answering a question, the program calculates and displays the user's score and the distribution of scores by question type and question category.
 
-## Package Structure
-com.sunmingze.TopQuizSystem
-├── Controller
-│   └── TestController.java
-├── Model
-│   └── Question.java
-├── Resources
-│   ├── QuestionSet1.java
-│   ├── QuestionSet2.java
-│   └── QuestionSet3.java
-└── View
-├── MainMenuView.java
-├── QuestionView.java
-└── ScoreView.java
-
 ## Function
 The user can enter a name.
 User can select age group.
